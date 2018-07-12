@@ -1,0 +1,26 @@
+<template class="template" id='twitch-template'>
+    <div id='twitch-container'>
+        <h1 class='title'>Twitch Control Panel</h1>
+        <div id='controls-container'>
+            <div id='button-container'>
+                <h2 class='title'>Twitch Bot Controls</h2>
+                <button id='connect' class='twitch-button'>Connect Bot</button>
+                <button id='disconnect' class='twitch-button'>Disconnect Bot</button>
+            </div>
+            <div id='game-container'>
+                <h2 class='title'>Game Controls</h2>
+                <span class='title'>Blue Team:</span>
+                <input id='blue_team' type="text">
+                <br>
+                <span class='title'>Red Team:</span>
+                <input id='red_team' type="text">
+                <br>
+                <button id='startgame' class='twitch-button'>Start Game</button>
+                <button id='endgame' class='twitch-button'>End Game</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        require('./renderer-process/twitch-bot')
+    </script>
+</template>

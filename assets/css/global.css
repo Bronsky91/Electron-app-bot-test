@@ -1,0 +1,35 @@
+/* Fonts ------------------------------- */
+
+@font-face {
+    font-family: 'Markazi Text', serif;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Markazi Text'), local('MarkaziText'), url('file:///assets/css/fonts/MarkaziText-Regular.ttf') format('truetype');
+}
+
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.main-content {
+    width: 100%;
+    height: 100%;
+}
+
+#side-panel {
+    background-color: #4e1e60;
+    background-image: url('file:///assets/img/nspbackground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height: 100%;
+    width: 15em;
+}

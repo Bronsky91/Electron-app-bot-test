@@ -1,0 +1,13 @@
+.item {
+    text-align: center;
+    padding: .5em;
+    color: white;
+    font-size: 20px;
+    font-family: 'Exo', sans-serif;
+    transition: .3s;
+}
+.item:hover {
+    background-color: rgba(98,56,134,.5);
+    cursor: pointer;
+    transition: .3s;
+  }
